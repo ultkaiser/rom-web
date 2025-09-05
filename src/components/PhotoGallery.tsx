@@ -7,32 +7,32 @@ const PhotoGallery: React.FC = () => {
   const photos = [
     {
       id: 1,
-      url: 'https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg',
+      url: '/photos/photo1.jpg',
       caption: 'Our first adventure together'
     },
     {
       id: 2,
-      url: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg',
+      url: '/photos/photo2.jpg',
       caption: 'Sunset walks by the beach'
     },
     {
       id: 3,
-      url: 'https://images.pexels.com/photos/1576037/pexels-photo-1576037.jpeg',
+      url: '/photos/photo3.jpg',
       caption: 'Cozy coffee dates'
     },
     {
       id: 4,
-      url: 'https://images.pexels.com/photos/1024966/pexels-photo-1024966.jpeg',
+      url: '/photos/photo4.jpg',
       caption: 'Dancing under the stars'
     },
     {
       id: 5,
-      url: 'https://images.pexels.com/photos/1157557/pexels-photo-1157557.jpeg',
+      url: '/photos/photo5.jpg',
       caption: 'Mountain hiking adventures'
     },
     {
       id: 6,
-      url: 'https://images.pexels.com/photos/1024970/pexels-photo-1024970.jpeg',
+      url: '/photos/photo6.jpg',
       caption: 'Quiet moments together'
     }
   ];

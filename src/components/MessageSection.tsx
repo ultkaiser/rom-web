@@ -1,21 +1,7 @@
 import React, { useState } from 'react';
-import { MessageCircleHeart as MessageHeart, Send, Heart } from 'lucide-react';
+import { MessageCircleHeart as MessageHeart, Heart } from 'lucide-react';
 
 const MessageSection: React.FC = () => {
-  const [message, setMessage] = useState('');
-  const [isMessageSent, setIsMessageSent] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (message.trim()) {
-      setIsMessageSent(true);
-      setTimeout(() => {
-        setIsMessageSent(false);
-        setMessage('');
-      }, 3000);
-    }
-  };
-
   return (
     <section id="message" className="py-20 bg-gradient-to-br from-pink-500 via-purple-500 to-purple-700 relative overflow-hidden">
       {/* Background Pattern */}
@@ -59,43 +45,6 @@ const MessageSection: React.FC = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Interactive Message Form */}
-        <div className="max-w-2xl mx-auto">
-          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20">
-            <h3 className="text-2xl font-serif font-bold text-white mb-6 text-center">
-              Leave a Sweet Note
-            </h3>
-            {!isMessageSent ? (
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <textarea
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    placeholder="Write something beautiful..."
-                    rows={4}
-                    className="w-full px-4 py-3 rounded-lg border-0 focus:ring-4 focus:ring-pink-200 focus:outline-none resize-none text-gray-800 placeholder-gray-500"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  disabled={!message.trim()}
-                  className="w-full bg-white text-purple-600 py-4 rounded-lg font-medium hover:bg-pink-50 transition-all duration-300 hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2 group"
-                >
-                  <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                  <span>Send with Love</span>
-                </button>
-              </form>
-            ) : (
-              <div className="text-center py-8">
-                <Heart className="w-16 h-16 text-white mx-auto mb-4 fill-current animate-pulse" />
-                <p className="text-white text-xl font-medium">
-                  Your message has been sent with love! 💕
-                </p>
-              </div>
-            )}
           </div>
         </div>
       </div>
