@@ -14,11 +14,6 @@ const Footer: React.FC = () => {
           This website was created as a digital love letter, a small token of the infinite love 
           I have for you. You deserve all the beautiful things in this world and more.
         </p>
-        <div className="mt-8 pt-8 border-t border-gray-700">
-          <p className="text-gray-500">
-            © 2024 • Created with all my love for the most amazing woman in the world
-          </p>
-        </div>
       </div>
     </footer>
   );

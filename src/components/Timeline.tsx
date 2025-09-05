@@ -7,22 +7,22 @@ const Timeline: React.FC = () => {
       id: 1,
       date: 'First Meeting',
       title: 'The Day Everything Changed',
-      description: 'The moment I saw you, I knew my life would never be the same. Your smile lit up the entire room.',
+      description: 'The moment I saw you, with those two badges on your tie, thats the moment I though we will have a looong story.',
       icon: Star,
       color: 'bg-pink-500'
     },
     {
       id: 2,
-      date: 'First Date',
-      title: 'Coffee & Conversations',
-      description: 'Hours felt like minutes as we talked about everything and nothing. I knew I wanted to spend forever learning about you.',
+      date: 'First Talks',
+      title: 'School & Conversations',
+      description: 'When you came to my class.Hours felt like minutes as when talked about everything and nothing. I knew I wanted to spend forever learning about you.',
       icon: Heart,
       color: 'bg-purple-500'
     },
     {
       id: 3,
       date: 'Becoming Official',
-      title: 'You Said Yes',
+      title: 'We Said Yes',
       description: 'The happiest day of my life when you agreed to be mine. My heart has been full ever since.',
       icon: Gift,
       color: 'bg-pink-600'

@@ -8,17 +8,17 @@ const PhotoGallery: React.FC = () => {
     {
       id: 1,
       url: '/photos/photo1.jpg',
-      caption: 'Our first adventure together'
+      caption: 'Our first scary adventure together'
     },
     {
       id: 2,
       url: '/photos/photo2.jpg',
-      caption: 'Sunset walks by the beach'
+      caption: 'The way we see each other is sooo much loveee'
     },
     {
       id: 3,
       url: '/photos/photo3.jpg',
-      caption: 'Cozy coffee dates'
+      caption: 'Cute ghibli piccc'
     },
     {
       id: 4,
@@ -28,12 +28,12 @@ const PhotoGallery: React.FC = () => {
     {
       id: 5,
       url: '/photos/photo5.jpg',
-      caption: 'Mountain hiking adventures'
+      caption: 'The most colorful day'
     },
     {
       id: 6,
       url: '/photos/photo6.jpg',
-      caption: 'Quiet moments together'
+      caption: 'The last pic(not really)'
     }
   ];
 
